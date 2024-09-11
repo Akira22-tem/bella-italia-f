@@ -37,6 +37,7 @@ export const Menu: React.FC= ()=> {
             command: () => navigate('/productos')
         },
 
+
     ];
     return (
         <div className="card">
