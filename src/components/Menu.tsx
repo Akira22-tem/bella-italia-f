@@ -18,22 +18,22 @@ export const Menu: React.FC= ()=> {
         },
         {
             label: 'Mesas',
-            icon: 'pi pi-book',
+            icon: 'pi pi-th-large',
             command: () => navigate('/mesas')
         },
         {
             label: 'Proveedores',
-            icon: 'pi pi-book',
+            icon: 'pi pi-truck',
             command: () => navigate('/proveedores')
         },
         {
             label: 'Transacciones',
-            icon: 'pi pi-book',
+            icon: 'pi pi-credit-card',
             command: () => navigate('/transacciones')
         },
         {
             label: 'Produtos',
-            icon: 'pi pi-book',
+            icon: 'pi pi-shopping-cart',
             command: () => navigate('/productos')
         },
 
